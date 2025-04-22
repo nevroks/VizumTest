@@ -12,7 +12,7 @@ const PostPage = lazy(() => import("@pages/PostPage/PostPage"));
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: APP_PATHS.MAIN_PAGE,
         element: <Layout />,
         children: [
             {
