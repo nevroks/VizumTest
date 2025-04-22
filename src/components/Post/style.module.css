@@ -1,0 +1,44 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    background-color: rgb(172, 172, 172);
+    width: 1240px;
+    height: 140px;
+    border: 1px solid black;
+    padding: 15px 10px;
+    border-radius: 16px;
+    -webkit-box-shadow: 0px 0px 19px 6px rgba(34, 60, 80, 0.17);
+    -moz-box-shadow: 0px 0px 19px 6px rgba(34, 60, 80, 0.17);
+    box-shadow: 0px 0px 19px 6px rgba(34, 60, 80, 0.17);
+}
+
+.PostHeader {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+}
+
+.PostHeaderId {
+    font-size: 24px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.PostHeaderTitle {
+    padding-left: 10px;
+    align-self: center;
+}
+
+
+.PostHeaderButton-wrapper {
+    justify-self: flex-end;
+    width: 140px;
+    height: 41px;
+}
+
+.PostBody {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

@@ -1,0 +1,32 @@
+.Layout-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+.Layout-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+.Layout-container {
+    flex: 1; /* Это заставит контейнер растягиваться и занимать оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout-container-content {
+    flex: 1; /* Это заставит контент растягиваться и занимать оставшееся пространство */
+    display: flex;
+    flex-direction: column;
+}
+.Layout-container-content-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Это заставит контент растягиваться и занимать оставшееся пространство */
+}

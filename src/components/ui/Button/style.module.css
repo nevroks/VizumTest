@@ -1,0 +1,32 @@
+.Button {
+    padding: 10px 20px;
+    background-color: rgb(59, 130, 246);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Button:hover {
+    background-color: rgb(43, 106, 214); /* Темнее для эффекта наведения */
+}
+
+.Button:active {
+    background-color: rgb(31, 84, 174); /* Еще темнее для эффекта нажатия */
+    transform: scale(0.98); /* Легкое сжатие при нажатии */
+}
+
+.Button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Обводка при фокусе */
+}
+
+.Button:disabled {
+    background-color: rgba(59, 130, 246, 0.5); /* Прозрачнее для отключенного состояния */
+    cursor: not-allowed;
+}
+
+.ButtonText{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
